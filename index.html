@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aspect_ratio_practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <input type="checkbox" id="slide-toggle" hidden>
+    <nav id="sidebar">
+        <label for="slide-toggle" id="toggle-btn"><i class="fa-solid fa-bars" id="ham"></i><i class="fa-solid fa-xmark"
+                id="cross"></i></label>
+        <div class="sidebar-btns-box">
+
+            <label class="sidebar-btns"><i class="fa-solid fa-pen-to-square"></i> <span>New Chat</span></label>
+            <label class="sidebar-btns"><i class="fa fa-search"></i> <span>Search Chat</span></label>
+            <label class="sidebar-btns"><i class="fa fa-history"></i> <span>Chat History</span></label>
+        </div>
+
+        <div class="sidebar-btns-box" id="settings-profile-btn-box">
+            <label class="sidebar-btns" id="profile-btn"><i class="fa-solid fa-user"></i> <span>Profile</span></label>
+            <label class="sidebar-btns" id="settings-btn"><i class="fa fa-cog"></i> <span>Settings</span></label>
+        </div>
+    </nav>
+
+    <div id="home">
+
+        <div id="askbar-wrapper">
+            <textarea name="prompt" id="askbar" placeholder="Ask anything"></textarea>
+            <div id="askbar-btns-box">
+                <button id="add-btn"><i class="fa fa-add"></i></button>
+                <button id="tools-btn"><i class="fa-solid fa-wrench"></i></button>
+                <button id="send-btn"><i class="fa-solid fa-paper-plane"></i></button>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
